@@ -1,5 +1,3 @@
-import java.lang.Integer.*;
-
 public class Problem1 {
     public static boolean canFollowRule(double length, int n, double min){
         int possibleSlot = (int) (Math.floor(length/min) + 1);
@@ -24,7 +22,7 @@ public class Problem1 {
 
     public static void main(String[] args) {
         // method 1
-        System.out.println(canFollowRule(9, 6, 2));
+        System.out.println(canFollowRule(9.0, 6, 2.0));
         System.out.println(canFollowRule(10.0, 6, 2.0));
         System.out.println(canFollowRule(10.0, 7, 2.0));
         System.out.println(canFollowRule(10.0, 6, 2.5));
